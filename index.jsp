@@ -10,17 +10,19 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>BattleHack GetStarted</title>
+<title>BattleHack Osaisen</title>
 </head>
 <body>
-<h1>Welcome To FREMA</h1>
+<h1>Osaisen</h1>
 <center>
-<img border="0" src="pic/redPencil.png" width="128" height="128" alt="red pencil" title="red pencil">
-<s:form action="purchase">
-	<s:submit value="Purchase" />
+<s:form action="login">
+    <s:submit value="Login" />
 </s:form>
-<s:form action="start">
-    <s:submit value="satrt" />
+
+<s:form action="login">
+      <s:textfield name="personBean.id" label="ID" />
+      <s:textfield  name="personBean.password" label="password" />
+      <s:submit value="Login" />
 </s:form>
 </center>
 </body>
