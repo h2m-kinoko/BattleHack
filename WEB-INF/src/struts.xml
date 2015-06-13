@@ -46,6 +46,14 @@ Version 1.1  2015/05/28  T.Hayashi  ADD: Measure to Japanese letter change
          <action name="login" class="org.battlehack.login.action.LoginAction">
             <result name="success">/jsp/target.jsp</result>
         </action>
+        <action name="nayami" class="org.battlehack.nayami.action.NayamiAction">
+            <result name="success">/jsp/nayami.jsp</result>
+        </action>
+        <!-- ToBeAdded
+        <action name="addTarget" class="org.battlehack.addTarget.action.AddTargetAction">
+            <result name="success">/jsp/target.jsp</result>
+        </action>
+        -->
 	</package>
 
 </struts>

@@ -15,8 +15,8 @@
 <body>
 <h1>Osaisen</h1>
 <center>
-<s:form action="login">
-    <s:submit value="Login" />
+<s:form action="nayami">
+    <s:submit value="悩みリスト" />
 </s:form>
 
 <s:form action="login">
