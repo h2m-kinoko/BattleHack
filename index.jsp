@@ -20,7 +20,7 @@
 	<s:submit value="Purchase" />
 </s:form>
 <s:form action="start">
-    <s:submit value="Start" />
+    <s:submit value="satrt" />
 </s:form>
 </center>
 </body>
