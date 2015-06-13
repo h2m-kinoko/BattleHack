@@ -32,11 +32,18 @@ Version 1.1  2015/05/28  T.Hayashi  ADD: Measure to Japanese letter change
         <action name="checkout" class="org.battlehack.checkout.action.CheckoutAction">
             <result name="success">/jsp/checkedout.jsp</result>
         </action>
-        <!-- VER1.3 ADD S -->
         <action name="purchase" class="org.battlehack.purchase.action.PurchaseAction">
             <result name="success">/jsp/purchased.jsp</result>
         </action>
-        <!-- VER1.3 ADD E -->
+        <action name="start" class="org.battlehack.start.action.StartAction">
+            <result name="success">/jsp/start.jsp</result>
+        </action>
+        <action name="target" class="org.battlehack.target.action.TargetAction">
+            <result name="success">/jsp/target.jsp</result>
+        </action>
+        <action name="achieved" class="org.battlehack.achieved.action.AchievedAction">
+            <result name="success">/jsp/achieved.jsp</result>
+        </action>
 	</package>
 
 </struts>
